@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------------------Colors-------------------*/
+
+.nav-bg {
+    background-color: #ECEAEA;
+}
+
+/*-----------------------------Heading-------------------*/
+
+/*-----------------------------Special paddings,margins,text etc-------------------*/
+
+/* .general-sub {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #212529;
+} */
+
+/*-----------------------------Navbar-------------------*/
+
+.logo {
+    margin-left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 112.5%;
+    letter-spacing: 2px;
+    padding: 0;
+}
+
+.main-nav {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 150%;
+    letter-spacing: 2px;  
+}
+
+.last-nav {
+    margin-right: 25px;
+}
+
+nav div li {
+    margin-left: 20px;
+}
+
+#menu {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/*-----------------------------Footer-------------------*/
+
+footer {
+    background-color: #ECEAEA;
+    color: #212529;
+    min-height: 112.5px;
+    margin: 0;
+}
