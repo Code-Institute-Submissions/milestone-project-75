@@ -18,6 +18,10 @@ div {
 
 /*-----------------------------------------------------------Special paddings,margins,text etc*/
 
+
+.inline-block {
+    display: inline-block;
+}
 /* .general-sub {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
@@ -95,8 +99,9 @@ footer {
 
 .tour-link i {
     font-size: 35px;
-    margin-left: 6px;
+    padding-left: 6px;
     color: #C4A55F;
+    text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -109,7 +114,6 @@ footer {
 
 .social-links li a i {
     font-size: 35px;
-    letter-spacing: 75px;
     color: #C4A55F;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -121,3 +125,6 @@ footer {
     color: #827081;
 }
 
+.social-links span {
+    word-spacing: 100px;
+}
