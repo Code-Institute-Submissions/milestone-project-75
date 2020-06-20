@@ -2,17 +2,21 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: 
 }
 
 div {
     display: block;
+}
+
+.callout-container {
+    height: 80vh;
 }
 /*-----------------------------------------------------------Colors */
 
 .nav-bg {
     background-color: #ECEAEA;
 }
+
 
 /*-----------------------------------------------------------Heading */
 
@@ -61,7 +65,82 @@ nav div li {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #C4A55F;
+}
+
+/*-----------------------------------------------------------Forms Callout */
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.form-style {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 3px solid #827081;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ECEAEA;
+}
+
+.all-form {
+    margin-top: 50px;
+}
+
+.section-header {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    /* padding-bottom: 5px; */
+    letter-spacing: 2px;
+}
+
+.block-divider {
+    width: 125px;
+    height: 3px;
+    border: 0;
+    background-color: #827081;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
+
+.question {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    /* padding: 15px; */
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+}
+
+.sign-up-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #C4A55F;
+}
+
+.sign-up-link:hover {
+    color: #827081;
+}
+
+.actual-form {
+    margin-top: 25px; 
+}
+
+.button-colour {
+    background-color: #C4A55F;
+    border: 1px solid #000;
+    
+}
+
+.button-colour:hover {
+    background-color: #827081;
 }
 
 /*-----------------------------------------------------------Footer */
@@ -85,7 +164,7 @@ footer {
 }
 
 .page-bottom {
-    padding-top: 1000px;
+    padding-top: 158px;
 }
 
 .tour-book {
@@ -125,6 +204,6 @@ footer {
     color: #827081;
 }
 
-.social-links span {
+.social-links {
     word-spacing: 100px;
 }
