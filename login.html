@@ -8,162 +8,120 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       type="text/css"
     />
-    <script src="https://kit.fontawesome.com/effa04c263.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/effa04c263.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Soul Gym</title>
   </head>
   <body>
     <header>
-      <!--Navbar-->
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-sm navbar-light nav-fixed nav-bg">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
             <a class="navbar-brand logo" href="index.html">
-              <img src="assets/images/sg_logo.jpg" alt="Soul Gym Logo" />
+            <img src="../assets/images/sg_logo.jpg" alt="Soul Gym Logo">
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav" id="menu">
-                <li class="nav-item active main-nav">
-                  <a class="nav-link" href="index.html"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav main-nav" id="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item main-nav">
-                  <a class="nav-link" href="#">Classes</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Classes</a>
                 </li>
-                <li class="nav-item main-nav">
-                  <a class="nav-link" href="#">Our Story</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item main-nav">
-                  <a class="nav-link" href="#">Contact Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item main-nav">
-                  <a class="nav-link" href="#">Login</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
                 </li>
-                <li class="nav-item main-nav last-nav">
-                  <a class="nav-link" href="#">Register</a>
+                <li class="nav-item last-nav">
+                    <a class="nav-link" href="#">Register</a>
                 </li>
-              </ul>
+                </ul>
             </div>
-          </nav>
-        </div>
-      </div>
+        </nav>       
     </header>
 
     <!--Callout-->
 
     <!--Login Form-->
-    <section class="container form-container">
-      
-      <div class="row all-form">
-      <div class="col">
-      <h1 class="section-header">Member Login</h1>
-      <hr class="block-divider">
-      <h4 class="question">Not a Member Yet? 
-      <a class="sign-up-link" href="register.html">Sign Up!</a>
-      </h4>
-      <form class="form-style actual-form">
-        <div class="form-group">
-          <label for="input-email" class="input-email form-control-lg form-labels">Email address / Username</label>
-          <input
-            type="email"
-            class="form-control form-control-lg"
-            id="input-email"
-            aria-describedby="email-help"
-            placeholder="email@example.com / Username123"
-          />
-          <small id="email-help" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
+    <section>
+      <div class="container-fluid my-container">
+        <div class="row my-row">
+            <div class="col-md-2 d-sm-none d-md-block my-col">
+            image
+            </div>
+            <div class="col-md-8 col-sm-12 my-col">
+            content
+            </div>
+            <div class="col-md-2 d-sm-none d-md-block my-col">
+            image
+            </div>
         </div>
-        <div class="form-group">
-          <label for="inputPassword" class="input-password form-control-lg">Password</label>
-          <input
-            type="password"
-            id="inputPassword"
-            class="form-control form-control-lg"
-            aria-describedby="passwordHelpBlock"
-            placeholder="password"
-          />
-          <small id="passwordHelpBlock" class="form-text text-muted">
-            Your password must be 8-20 characters long, contain letters and
-            numbers, and must not contain spaces, special characters, or emoji.
-          </small>
-        </div>
-        <button type="submit" class="btn btn-outline-dark button-colour">Submit</button>
-      </form>
-      </div>
       </div>
     </section>
     <!--Footer-->
-<div>
-    <footer class="containter-fluid page-bottom">
-      <div class="row">
-        <!--Book tour link-->
-        <div class="col-sm-4 footer-align">
-          <p class="tour-book inline-block">
-            Want to See More? Book A Tour Here
-            <span class="tour-link">
-              <a href="#">
-                <i class="far fa-calendar-alt" aria-hidden="true"></i>
-                <span class="sr-only">Book Tour Link</span>
-              </a>
-            </span>
-          </p>
+    <div>
+      <footer class="containter-fluid page-bottom">
+        <div class="row">
+          <!--Book tour link-->
+          <div class="col-sm-4 footer-align">
+            <p class="tour-book inline-block">
+              Want to See More? Book A Tour Here
+              <span class="tour-link">
+                <a href="#">
+                  <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                  <span class="sr-only">Book Tour Link</span>
+                </a>
+              </span>
+            </p>
+          </div>
+
+          <!--Empty div to create equal spacing-->
+          <div class="col-sm-4 footer-align"></div>
+
+          <!--Social Links-->
+          <div class="col-sm-4 footer-align">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.instagram.com">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.twitter.com">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.youtube.com">
+                  <i class="fa fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">Youtube</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <!--Empty div to create equal spacing-->
-        <div class="col-sm-4 footer-align"></div>
-
-        <!--Social Links-->
-        <div class="col-sm-4 footer-align">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.twitter.com">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.youtube.com">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+      </footer>
     </div>
   </body>
 </html>
