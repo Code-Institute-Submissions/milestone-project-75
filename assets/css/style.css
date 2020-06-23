@@ -4,12 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* div {
+div {
     display: block;
-} */
-
-
-
+}
 /* .form-container {
     display: flex;
     align-items: center;
@@ -72,16 +69,76 @@ nav div li {
 /*-----------------------------------------------------------Forms Callout */
 
 .my-container {
-    border: 5px solid blue;
+    
 }
 
 .my-row {
-    border: 3px solid red;
+    height: 1109px;
 }
 
-.my-col {
-    border: 3px dotted green;
+.my-col-1 {
+    background: url("../images/sg-symbol.jpg") repeat-y fixed left;
+   
 }
+
+.my-col-2 {
+    background: url("../images/sg-symbol.jpg") repeat-y fixed right;
+    
+}
+
+.all-form {
+    margin-top: 150px;
+}
+
+.form-headers {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    /* padding-bottom: 5px; */
+    letter-spacing: 2px;
+} 
+
+.form-style {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 3px solid #827081;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ECEAEA;
+    width: 750px;
+    position: center;
+    margin: auto;
+}
+
+.form-labels {
+    font-size: 24px;
+}
+
+.sign-up-link {
+    text-decoration: underline;
+    color: #C4A55F;
+}
+
+.sign-up-link:hover {
+    color: #827081;
+}
+
+.question {
+    padding: 15px; 
+    margin-bottom: 4rem;
+}
+
+.button-colour {
+    background-color: #C4A55F;
+    border: 1px solid #000;
+}
+
+.button-colour:hover {
+    background-color: #827081;
+    color: #fff;
+}
+
 
 /* .form-container {
     display: flex;
@@ -95,67 +152,7 @@ nav div li {
     padding-right: 0;
     padding-left: 0;
 }
-
-.backgound-container {    
-    background: url("../images/sg-symbol.jpg") repeat-y fixed left;
-} 
-
-.form-style {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    border: 3px solid #827081;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #ECEAEA;
-}
-
-.all-form {
-    margin-top: 50px;
-}
-
-.section-header {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    (taken out padding-bottom: 5px; 
-    letter-spacing: 2px;
-} 
-
-.question {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    (taken out) padding: 15px; 
-    letter-spacing: 2px;
-    margin-bottom: 4rem;
-}
-
-.sign-up-link {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    text-decoration: underline;
-    color: #C4A55F;
-}
-
-.sign-up-link:hover {
-    color: #827081;
-}
-
-.actual-form {
-    margin-top: 25px; 
-}
-
-.button-colour {
-    background-color: #C4A55F;
-    border: 1px solid #000;
-    
-}
-
-.button-colour:hover {
-    background-color: #827081;
-} */
+ */
 
 /*-----------------------------------------------------------Block Dividers */
 
