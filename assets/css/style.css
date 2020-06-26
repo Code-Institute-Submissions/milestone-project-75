@@ -66,11 +66,7 @@ nav div li {
     border-bottom: 1px solid #C4A55F;
 }
 
-/*-----------------------------------------------------------Forms Callout */
-
-.my-container {
-    
-}
+/*-----------------------------------------------------------Forms */
 
 .my-row {
     height: 1109px;
@@ -95,7 +91,6 @@ nav div li {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    /* padding-bottom: 5px; */
     letter-spacing: 2px;
 } 
 
@@ -107,7 +102,6 @@ nav div li {
     padding: 10px;
     background-color: #ECEAEA;
     width: 750px;
-    position: center;
     margin: auto;
 }
 
@@ -144,6 +138,8 @@ nav div li {
     color: #fff;
 }
 
+/*-----------------------------------------------------------Contact Form */
+
 .contact-d {
     margin-top: 190px;
 }
@@ -154,7 +150,7 @@ nav div li {
     padding: 10px;
     background-color: #ECEAEA;
     width: 750px;
-    position: center;
+   
     margin-top: 80px;
     margin-bottom: 20px;
 }
@@ -178,6 +174,66 @@ tr {
     letter-spacing: 1px;
 }
 
+/*-----------------------------------------------------------Home Page */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-container {
+    background: url("/assets/images/home-image.jpg") no-repeat center center fixed;
+    height: 70vh;
+    background-size: cover;  
+}
+
+/*-----------------------------------------------------------Home Page, Class */
+
+.headline {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+/*-----------------------------------------------------------HP Quotes */
+
+.quotes {
+    margin: 80px 80px;
+}
+
+.quotes-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* .quote-box {
+    background-color: #ECEAEA;
+} */
+
+.quote-sen {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.q-name {
+    font-weight: 100;
+    color: #C4A55F;
+}
+
 /* .form-container {
     display: flex;
     align-items: center;
@@ -192,6 +248,92 @@ tr {
 }
  */
 
+/*-----------------------------------------------------------Classes Page  */
+
+.jumbotron-container-3 {
+    height: 50vh;
+    position: relative;
+}
+
+.jumbotron-container-3::before {    
+      content: "";
+      background: url("/assets/images/classes.jpg") no-repeat center center fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
+}
+
+/* .all-bg {
+    background-color: #F9F7F0;
+} */
+
+.classes-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.my-card-text {
+    font-family: inherit;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card-border {
+    border: 3px solid #827081;
+    margin-bottom: 2rem;
+}
+
+.card-bg {
+    background-color: #ECEAEA;
+}
+
+/* .classes-images {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    float: left;
+    (taken out) margin: 5% */
+}
+
+
+
+/*-----------------------------------------------------------Coming Soon Home Page Section  */
+
+ .jumbotron-container-2 {
+    
+    height: 70vh;
+    
+    position: relative;
+}
+
+.jumbotron-container-2::before {    
+      content: "";
+      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
+}
+
+
 /*-----------------------------------------------------------Block Dividers */
 
 .block-divider {
@@ -205,13 +347,6 @@ tr {
 
 /*-----------------------------------------------------------Footer */
 
-/* footer {
-    
-    
-    color: #212529;
-    
-} */
-
 footer {
     display: block;
 } 
@@ -222,10 +357,6 @@ footer {
     padding-top: 30px;
     padding-bottom: 15px;
 }
-
-/* .page-bottom {
-    padding-top: 300px;
-} */
 
 .tour-book {
     font-family: 'Noto Sans', sans-serif;
@@ -268,8 +399,3 @@ footer {
     word-spacing: 100px;
 }
 
-@media (max-width: 1330px) {
-    .navbarNav {
-        display: !important;
-    }
-} 
