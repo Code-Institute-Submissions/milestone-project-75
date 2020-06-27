@@ -14,15 +14,6 @@ div {
     height: 58.4vh;
 } */
 
-/*-----------------------------------------------------------Colors */
-
-.nav-bg {
-    background-color: #ECEAEA;
-}
-
-
-/*-----------------------------------------------------------Heading */
-
 /*-----------------------------------------------------------Special paddings,margins,text etc*/
 
 
@@ -35,6 +26,17 @@ div {
     font-weight: 400;
     color: #212529;
 } */
+
+/*-----------------------------------------------------------Block Dividers */
+
+.block-divider {
+    width: 125px;
+    height: 3px;
+    border: 0;
+    background-color: #827081;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
 
 /*-----------------------------------------------------------Navbar */
 
@@ -52,6 +54,10 @@ div {
 
 .last-nav {
     margin-right: 10px;
+}
+
+.nav-bg {
+    background-color: #ECEAEA;
 }
 
 nav div li {
@@ -248,7 +254,31 @@ tr {
 }
  */
 
+ /*-----------------------------------------------------------Coming Soon Home Page Section  */
+
+ .jumbotron-container-2 {
+    height: 70vh;
+    position: relative;
+}
+
+.jumbotron-container-2::before {    
+      content: "";
+      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
+}
+
 /*-----------------------------------------------------------Classes Page  */
+
+table {
+    table-layout: fixed;
+    width: 300px;
+}
 
 .jumbotron-container-3 {
     height: 50vh;
@@ -266,10 +296,6 @@ tr {
       left: 0px;
       opacity: 0.7;
 }
-
-/* .all-bg {
-    background-color: #F9F7F0;
-} */
 
 .classes-head {
     font-family: 'Noto Sans', sans-serif;
@@ -302,47 +328,27 @@ tr {
     background-color: #ECEAEA;
 }
 
+.table-classes {
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.table-days {
+    letter-spacing: 2px;
+    font
+}
+
+tr:hover td {
+    background-color: #C4A55F;
+}
+
+
 /* .classes-images {
     height: 250px;
     width: 250px;
     border-radius: 10px;
     float: left;
     (taken out) margin: 5% */
-}
-
-
-
-/*-----------------------------------------------------------Coming Soon Home Page Section  */
-
- .jumbotron-container-2 {
-    
-    height: 70vh;
-    
-    position: relative;
-}
-
-.jumbotron-container-2::before {    
-      content: "";
-      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.7;
-}
-
-
-/*-----------------------------------------------------------Block Dividers */
-
-.block-divider {
-    width: 125px;
-    height: 3px;
-    border: 0;
-    background-color: #827081;
-    margin-top: 2rem;
-    margin-bottom: 2rem; 
 }
 
 /*-----------------------------------------------------------Footer */
