@@ -107,7 +107,7 @@ nav div li {
 }
 
 .jumbotron-container {
-    background: url("/assets/images/home-image.jpg") no-repeat center center fixed;
+    background: url("../images/home-image.jpg") no-repeat center center fixed;
     height: 70vh;
     background-size: cover;  
 }
@@ -121,7 +121,7 @@ nav div li {
 
 .jumbotron-container-2::before {    
       content: "";
-      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
+      background: url("../images/spa.jpg") no-repeat center center fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -290,7 +290,7 @@ tr {
 
 .jumbotron-container-4::before {    
       content: "";
-      background: url("/assets/images/about.jpg") no-repeat center bottom fixed;
+      background: url("../assets/images/about.jpg") no-repeat center bottom fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -347,7 +347,7 @@ table {
 
 .jumbotron-container-3::before {    
       content: "";
-      background: url("/assets/images/classes.jpg") no-repeat center center fixed;
+      background: url("../assets/images/classes.jpg") no-repeat center center fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
