@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 div {
@@ -72,53 +73,11 @@ nav div li {
     border-bottom: 1px solid #C4A55F;
 }
 
-/*-----------------------------------------------------------Forms */
-
-.my-row {
-    height: 1109px;
+.show li:hover {
+    background-color: #C4A55F;
 }
 
-.my-col-1 {
-    background: url("../images/sg-symbol.jpg") repeat-y fixed left;
-   
-}
-
-.my-col-2 {
-    background: url("../images/sg-symbol.jpg") repeat-y fixed right;
-    
-}
-
-.all-form {
-    margin-top: 150px;
-}
-
-.form-headers {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-} 
-
-.form-style {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    border: 3px solid #827081;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #ECEAEA;
-    width: 750px;
-    margin: auto;
-}
-
-.form-labels {
-    font-size: 24px;
-}
-
-.scroll {
-    overflow-x: hidden; 
-    overflow-y: auto;
-}
+/*-----------------------------------------------------------Buttons and Links */
 
 .sign-up-link {
     text-decoration: underline;
@@ -127,11 +86,6 @@ nav div li {
 
 .sign-up-link:hover {
     color: #827081;
-}
-
-.question {
-    padding: 15px; 
-    margin-bottom: 4rem;
 }
 
 .button-colour {
@@ -144,41 +98,7 @@ nav div li {
     color: #fff;
 }
 
-/*-----------------------------------------------------------Contact Form */
 
-.contact-d {
-    margin-top: 190px;
-}
-
-.find-us {
-    border: 3px solid #827081;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #ECEAEA;
-    width: 750px;
-   
-    margin-top: 80px;
-    margin-bottom: 20px;
-}
-
-.find-us h3 {
-    font-family: inherit;
-    font-weight: 400;
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-.find-us p {
-    font-family: inherit;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-tr {
-    font-size: 15px;
-    letter-spacing: 1px;
-}
 
 /*-----------------------------------------------------------Home Page */
 
@@ -190,6 +110,25 @@ tr {
     background: url("/assets/images/home-image.jpg") no-repeat center center fixed;
     height: 70vh;
     background-size: cover;  
+}
+
+/*-----------------------------------------------------------Coming Soon Home Page Section  */
+
+ .jumbotron-container-2 {
+    height: 70vh;
+    position: relative;
+}
+
+.jumbotron-container-2::before {    
+      content: "";
+      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
 }
 
 /*-----------------------------------------------------------Home Page, Class */
@@ -213,7 +152,7 @@ tr {
     padding-bottom: 30px;
 }
 
-/*-----------------------------------------------------------HP Quotes */
+/*-----------------------------------------------------------Home Page Quotes */
 
 .quotes {
     margin: 80px 80px;
@@ -254,16 +193,104 @@ tr {
 }
  */
 
- /*-----------------------------------------------------------Coming Soon Home Page Section  */
+/*-----------------------------------------------------------Forms */
 
- .jumbotron-container-2 {
-    height: 70vh;
+.my-row {
+    height: 1109px;
+}
+
+.my-col-1 {
+    background: url("../images/sg-symbol.jpg") repeat-y fixed left;
+}
+
+.my-col-2 {
+    background: url("../images/sg-symbol.jpg") repeat-y fixed right;
+    
+}
+
+.all-form {
+    margin-top: 150px;
+}
+
+.form-headers {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+} 
+
+.form-style {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 3px solid #827081;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ECEAEA;
+    width: 750px;
+    margin: auto;
+}
+
+.form-labels {
+    font-size: 24px;
+}
+
+.scroll {
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+.question {
+    padding: 15px; 
+    margin-bottom: 4rem;
+}
+
+/*-----------------------------------------------------------Contact Form */
+
+.contact-d {
+    margin-top: 190px;
+}
+
+.find-us {
+    border: 3px solid #827081;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ECEAEA;
+    width: 750px;
+   
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.find-us h3 {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.find-us p {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+tr {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/*-----------------------------------------------------------About Page */
+
+.jumbotron-container-4 {
+    height: 50vh;
     position: relative;
 }
 
-.jumbotron-container-2::before {    
+.jumbotron-container-4::before {    
       content: "";
-      background: url("/assets/images/spa.jpg") no-repeat center center fixed;
+      background: url("/assets/images/about.jpg") no-repeat center bottom fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -271,6 +298,39 @@ tr {
       bottom: 0px;
       left: 0px;
       opacity: 0.7;
+}
+
+
+/*-----------------------------------------------------------Cards  */
+
+.card-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.my-card-text {
+    font-family: inherit;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card-border {
+    border: 3px solid #827081;
+    margin-bottom: 2rem;
+}
+
+.card-bg {
+    background-color: #ECEAEA;
+}
+
+.card-1 {
+    margin-top: 100px;
+}
+
+.all-cards {
+    margin-bottom: 80px;
 }
 
 /*-----------------------------------------------------------Classes Page  */
@@ -306,28 +366,6 @@ table {
     text-align: center;
 }
 
-.card-head {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.my-card-text {
-    font-family: inherit;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.card-border {
-    border: 3px solid #827081;
-    margin-bottom: 2rem;
-}
-
-.card-bg {
-    background-color: #ECEAEA;
-}
-
 .table-classes {
     letter-spacing: 2px;
     font-weight: 300;
@@ -335,11 +373,14 @@ table {
 
 .table-days {
     letter-spacing: 2px;
-    font
 }
 
 tr:hover td {
     background-color: #C4A55F;
+}
+
+.table-bottom {
+    margin-bottom: 80px;
 }
 
 
@@ -348,8 +389,8 @@ tr:hover td {
     width: 250px;
     border-radius: 10px;
     float: left;
-    (taken out) margin: 5% */
-}
+    (taken out) margin: 5% } */
+
 
 /*-----------------------------------------------------------Footer */
 
@@ -405,3 +446,10 @@ footer {
     word-spacing: 100px;
 }
 
+/* @media (max-width: 991px) {
+    .nav-item-list {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+} */
