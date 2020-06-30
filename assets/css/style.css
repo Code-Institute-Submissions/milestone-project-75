@@ -290,7 +290,7 @@ tr {
 
 .jumbotron-container-4::before {    
       content: "";
-      background: url("../assets/images/about.jpg") no-repeat center bottom fixed;
+      background: url("../images/about.jpg") no-repeat center bottom fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -347,7 +347,7 @@ table {
 
 .jumbotron-container-3::before {    
       content: "";
-      background: url("../assets/images/classes.jpg") no-repeat center center fixed;
+      background: url("../images/classes.jpg") no-repeat center center fixed;
       background-size: cover;
       position: absolute;
       top: 0px;
