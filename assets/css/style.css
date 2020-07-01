@@ -183,10 +183,6 @@ nav div li {
 
 /*-----------------------------------------------------------Forms */
 
-.my-row {
-    height: 1109px;
-}
-
 .my-col-1 {
     background: url("../images/sg-symbol.jpg") repeat-y fixed left;
 }
@@ -228,6 +224,12 @@ nav div li {
     margin-bottom: 4rem;
 }
 
+.form-bottom {
+    margin-bottom: 120px;
+}
+
+
+
 /*-----------------------------------------------------------Contact Form */
 
 .contact-d {
@@ -240,9 +242,8 @@ nav div li {
     padding: 10px;
     background-color: #ECEAEA;
     width: 750px;
-   
     margin-top: 80px;
-    margin-bottom: 20px;
+    
 }
 
 .find-us h3 {
@@ -480,7 +481,7 @@ footer {
         width: 100%;
     }
     
-    .media {
+    /* .media {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -492,11 +493,28 @@ footer {
         display: block;
         margin-left: 50px;
         margin-right: 50px;
-        
+    } */
+
+}
+
+
+@media only screen and (max-width: 414px) {
+    .media {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quotes-img {
+        margin-bottom: 25px;
+        margin-top: 15px;
+        display: block;
+        margin-left: 50px;
         
     }
 
 }
+
 
 @media only screen and (max-width: 576px) {
     footer div 
