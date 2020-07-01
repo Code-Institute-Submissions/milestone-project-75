@@ -223,11 +223,6 @@ nav div li {
     font-size: 24px;
 }
 
-.scroll {
-    overflow-x: hidden; 
-    overflow-y: auto;
-}
-
 .question {
     padding: 15px; 
     margin-bottom: 4rem;
@@ -323,11 +318,6 @@ tr {
 
 /*-----------------------------------------------------------Classes Page  */
 
-table {
-    table-layout: fixed;
-    width: 300px;
-}
-
 .jumbotron-container-3 {
     height: 50vh;
     position: relative;
@@ -355,6 +345,11 @@ table {
 }
 
 /*-----------------------------------------------------------Timetable Classes Page  */
+
+/* table {
+    table-layout: fixed;
+    width: 300px;
+} */
 
 .table-classes {
     letter-spacing: 2px;
@@ -462,7 +457,7 @@ footer {
    }
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     nav a {
         width: 70%;
     }
@@ -471,4 +466,44 @@ footer {
         width: 100%;
     }
     
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table thead {
+        width: 100%;
+    }
+
+    table tbody {
+        width: 100%;
+    }
+    
+
 }
+
+@media only screen and (max-width: 576px) {
+    footer div 
+}
+
+/* .all-table {
+    width: 1000px;
+    text-align: center;
+}
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table thead {
+        display: table;
+        width: 100%;
+    }
+
+    table tbody {
+        display: table;
+        width: 100%;
+    } */
