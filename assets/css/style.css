@@ -8,25 +8,14 @@ body {
 div {
     display: block;
 }
-/* .form-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 58.4vh;
-} */
 
-/*-----------------------------------------------------------Special paddings,margins,text etc*/
+main > .container {
+    padding-top: 60px;
+}
 
-
-/* .inline-block {
-    display: inline-block;
-} */
-
-/* .general-sub {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    color: #212529;
-} */
+.row {
+    margin: 0;
+}
 
 /*-----------------------------------------------------------Block Dividers */
 
@@ -40,6 +29,7 @@ div {
 }
 
 /*-----------------------------------------------------------Navbar */
+
 
 .logo {
     margin-left: 10px;
@@ -98,8 +88,6 @@ nav div li {
     color: #fff;
 }
 
-
-
 /*-----------------------------------------------------------Home Page */
 
 .jumbotron {
@@ -131,7 +119,7 @@ nav div li {
       opacity: 0.7;
 }
 
-/*-----------------------------------------------------------Home Page, Class */
+/*-----------------------------------------------------------Home Page,  */
 
 .headline {
     font-family: 'Noto Sans', sans-serif;
@@ -366,6 +354,8 @@ table {
     text-align: center;
 }
 
+/*-----------------------------------------------------------Timetable Classes Page  */
+
 .table-classes {
     letter-spacing: 2px;
     font-weight: 300;
@@ -398,11 +388,23 @@ footer {
     display: block;
 } 
 
+/* .footer-size {
+    margin: 0;
+} */
+
 .footer-align {
     text-align: center;
     background-color: #ECEAEA;
     padding-top: 30px;
     padding-bottom: 15px;
+    display: inline;
+}
+
+.blank-div {
+    text-align: center;
+    background-color: #ECEAEA;
+    padding-bottom: 15px;
+    display: inline;
 }
 
 .tour-book {
@@ -442,8 +444,8 @@ footer {
     color: #827081;
 }
 
-.social-links {
-    word-spacing: 100px;
+.footer-icon {
+    margin-left: 100px;
 }
 
 /* @media (max-width: 991px) {
@@ -453,3 +455,20 @@ footer {
         padding-bottom: 20px;
     }
 } */
+
+/* @media (min-width: 768px) and (max-width: 1330px) {
+   .collapse {
+       display: none !important;
+   }
+} */
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        width: 70%;
+    }
+
+    nav a img {
+        width: 100%;
+    }
+    
+}
