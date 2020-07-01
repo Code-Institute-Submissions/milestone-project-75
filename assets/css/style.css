@@ -443,13 +443,13 @@ footer {
     margin-left: 100px;
 }
 
-/* @media (max-width: 991px) {
+ @media (max-width: 1199px) {
     .nav-item-list {
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-} */
+} 
 
 /* @media (min-width: 768px) and (max-width: 1330px) {
    .collapse {
@@ -480,30 +480,8 @@ footer {
         width: 100%;
     }
     
-
 }
 
 @media only screen and (max-width: 576px) {
     footer div 
 }
-
-/* .all-table {
-    width: 1000px;
-    text-align: center;
-}
-
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    table thead {
-        display: table;
-        width: 100%;
-    }
-
-    table tbody {
-        display: table;
-        width: 100%;
-    } */
