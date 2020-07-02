@@ -17,6 +17,7 @@ main > .container {
     margin: 0;
 }
 
+
 /*-----------------------------------------------------------Block Dividers */
 
 .block-divider {
@@ -103,7 +104,7 @@ nav div li {
 /*-----------------------------------------------------------Coming Soon Home Page Section  */
 
  .jumbotron-container-2 {
-    height: 70vh;
+    height: 100%;
     position: relative;
 }
 
@@ -119,7 +120,7 @@ nav div li {
       opacity: 0.7;
 }
 
-/*-----------------------------------------------------------Home Page,  */
+/*-----------------------------------------------------------Home Page, Classes Pag and About Page */
 
 .headline {
     font-family: 'Noto Sans', sans-serif;
@@ -152,9 +153,6 @@ nav div li {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/* .quote-box {
-    background-color: #ECEAEA;
-} */
 
 .quote-sen {
     font-family: 'Roboto', sans-serif;
@@ -174,13 +172,6 @@ nav div li {
     height: 58.4vh;
 }
 
-.content-container {
-    padding-bottom: 343px;
-    padding-right: 0;
-    padding-left: 0;
-}
- */
-
 /*-----------------------------------------------------------Forms */
 
 .my-col-1 {
@@ -194,6 +185,12 @@ nav div li {
 
 .all-form {
     margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.all-form-2 {
+    margin-top: 150px;
+    margin-bottom: 460px;
 }
 
 .form-headers {
@@ -211,7 +208,7 @@ nav div li {
     border-radius: 5px;
     padding: 10px;
     background-color: #ECEAEA;
-    width: 750px;
+    width: 80%;
     margin: auto;
 }
 
@@ -224,11 +221,13 @@ nav div li {
     margin-bottom: 4rem;
 }
 
-.form-bottom {
-    margin-bottom: 120px;
-}
+/* .form-bottom {
+    margin-bottom: 450px;
+} */
 
-
+/* .form-bottom-2 {
+    margin-bottom: 192px;
+} */
 
 /*-----------------------------------------------------------Contact Form */
 
@@ -241,7 +240,7 @@ nav div li {
     border-radius: 5px;
     padding: 10px;
     background-color: #ECEAEA;
-    width: 750px;
+    width: 80%;
     margin-top: 80px;
     
 }
@@ -258,6 +257,11 @@ nav div li {
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 1px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
 
 tr {
@@ -302,7 +306,7 @@ tr {
 
 .card-border {
     border: 3px solid #827081;
-    margin-bottom: 2rem;
+    
 }
 
 .card-bg {
@@ -369,20 +373,17 @@ tr:hover td {
     margin-bottom: 80px;
 }
 
-
-/* .classes-images {
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-    float: left;
-    (taken out) margin: 5% } */
-
-
 /*-----------------------------------------------------------Footer */
 
 footer {
     display: block;
 } 
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 /* .footer-size {
     margin: 0;
@@ -458,7 +459,7 @@ footer {
    }
 } */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     nav a {
         width: 70%;
     }
@@ -479,6 +480,24 @@ footer {
 
     table tbody {
         width: 100%;
+    }
+
+    .form-style {
+        width: 100%;
+    }
+
+    .find-us {
+        width: 100%;
+    }
+
+    iframe {
+        float: right;
+        width: 80%;
+        height: 100%;
+    }
+
+    #footer {
+        position: relative;
     }
     
     /* .media {
@@ -510,7 +529,14 @@ footer {
         margin-top: 15px;
         display: block;
         margin-left: 50px;
-        
+    }
+
+    .hp-head {
+        font-size: 28px;
+    }
+
+    .hp-descrip {
+        font-size: 20px;
     }
 
 }

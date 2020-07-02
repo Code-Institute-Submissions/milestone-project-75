@@ -79,7 +79,7 @@
             </h4>
 
             <form
-              class="form-style form-bottom"
+              class="form-style form-bottom-2"
               action="https://formdump.codeinstitute.net"
               method="post"
             >
@@ -139,6 +139,34 @@
               <button type="submit" class="btn outline-dark button-colour">
                 Submit
               </button>
+
+
+    <!-- Button trigger modal -->
+<button type="submit" class="btn outline-dark button-colour" data-toggle="modal" data-target="#staticBackdrop">
+  Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Registration Confirmed</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank you for registering with us here at Soul Gym. We can't wait to meet you. Namaste!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn outline-dark button-colour" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
             </form>
           </div>
           <div class="col-md-2 d-sm-none d-md-block my-col-2"></div>
@@ -147,8 +175,8 @@
     </section>
     <!--Footer-->
 
-    <footer class="containter-fluid page-bottom mt-auto">
-      <div class="row footer-size">
+    <footer class="containter-fluid mt-auto" id="footer">
+      <div class="row">
         <!--Book tour link-->
         <div class="col-md-4 footer-align">
           <p class="tour-book inline-block">
