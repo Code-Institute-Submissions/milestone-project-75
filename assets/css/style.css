@@ -89,6 +89,34 @@ nav div li {
     color: #fff;
 }
 
+.tour-link i {
+    font-size: 35px;
+    padding-left: 6px;
+    color: #C4A55F;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.tour-link i:hover {
+    color: #827081;
+}
+
+.social-links li a i {
+    font-size: 35px;
+    color: #C4A55F;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #827081;
+}
+
 /*-----------------------------------------------------------Home Page */
 
 .jumbotron {
@@ -165,11 +193,101 @@ nav div li {
     color: #C4A55F;
 }
 
-/* .form-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 58.4vh;
+/*-----------------------------------------------------------Classes Page  */
+
+.jumbotron-container-3 {
+    height: 50vh;
+    position: relative;
+}
+
+.jumbotron-container-3::before {    
+      content: "";
+      background: url("../images/classes.jpg") no-repeat center center fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
+}
+
+.classes-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------Cards  */
+
+.card-head {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.my-card-text {
+    font-family: inherit;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.card-border {
+    border: 3px solid #827081;
+}
+
+.card-bg {
+    background-color: #ECEAEA;
+}
+
+.card-1 {
+    margin-top: 100px;
+}
+
+.all-cards {
+    margin-bottom: 80px;
+}
+
+/*-----------------------------------------------------------Timetable Classes Page  */
+
+.table-classes {
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.table-days {
+    letter-spacing: 2px;
+}
+
+tr:hover td {
+    background-color: #C4A55F;
+}
+
+.table-bottom {
+    margin-bottom: 80px;
+}
+
+/*-----------------------------------------------------------About Page */
+
+.jumbotron-container-4 {
+    height: 50vh;
+    position: relative;
+}
+
+.jumbotron-container-4::before {    
+      content: "";
+      background: url("../images/about.jpg") no-repeat center bottom fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
 }
 
 /*-----------------------------------------------------------Forms */
@@ -180,17 +298,16 @@ nav div li {
 
 .my-col-2 {
     background: url("../images/sg-symbol.jpg") repeat-y fixed right;
-    
 }
 
 .all-form {
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 211px;
 }
 
 .all-form-2 {
     margin-top: 150px;
-    margin-bottom: 460px;
+    margin-bottom: 450px;
 }
 
 .form-headers {
@@ -221,14 +338,6 @@ nav div li {
     margin-bottom: 4rem;
 }
 
-/* .form-bottom {
-    margin-bottom: 450px;
-} */
-
-/* .form-bottom-2 {
-    margin-bottom: 192px;
-} */
-
 /*-----------------------------------------------------------Contact Form */
 
 .contact-d {
@@ -236,13 +345,13 @@ nav div li {
 }
 
 .find-us {
+    font-family: 'Roboto', sans-serif;
     border: 3px solid #827081;
     border-radius: 5px;
     padding: 10px;
     background-color: #ECEAEA;
     width: 80%;
     margin-top: 80px;
-    
 }
 
 .find-us h3 {
@@ -256,7 +365,7 @@ nav div li {
     font-family: inherit;
     font-weight: 300;
     font-size: 18px;
-    letter-spacing: 1px;
+    
 }
 
 iframe {
@@ -269,110 +378,6 @@ tr {
     letter-spacing: 1px;
 }
 
-/*-----------------------------------------------------------About Page */
-
-.jumbotron-container-4 {
-    height: 50vh;
-    position: relative;
-}
-
-.jumbotron-container-4::before {    
-      content: "";
-      background: url("../images/about.jpg") no-repeat center bottom fixed;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.7;
-}
-
-
-/*-----------------------------------------------------------Cards  */
-
-.card-head {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.my-card-text {
-    font-family: inherit;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.card-border {
-    border: 3px solid #827081;
-    
-}
-
-.card-bg {
-    background-color: #ECEAEA;
-}
-
-.card-1 {
-    margin-top: 100px;
-}
-
-.all-cards {
-    margin-bottom: 80px;
-}
-
-/*-----------------------------------------------------------Classes Page  */
-
-.jumbotron-container-3 {
-    height: 50vh;
-    position: relative;
-}
-
-.jumbotron-container-3::before {    
-      content: "";
-      background: url("../images/classes.jpg") no-repeat center center fixed;
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.7;
-}
-
-.classes-head {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-top: 50px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-/*-----------------------------------------------------------Timetable Classes Page  */
-
-/* table {
-    table-layout: fixed;
-    width: 300px;
-} */
-
-.table-classes {
-    letter-spacing: 2px;
-    font-weight: 300;
-}
-
-.table-days {
-    letter-spacing: 2px;
-}
-
-tr:hover td {
-    background-color: #C4A55F;
-}
-
-.table-bottom {
-    margin-bottom: 80px;
-}
-
 /*-----------------------------------------------------------Footer */
 
 footer {
@@ -380,14 +385,10 @@ footer {
 } 
 
 #footer {
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
 }
-
-/* .footer-size {
-    margin: 0;
-} */
 
 .footer-align {
     text-align: center;
@@ -413,51 +414,17 @@ footer {
     margin: 0;
 }
 
-.tour-link i {
-    font-size: 35px;
-    padding-left: 6px;
-    color: #C4A55F;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.tour-link i:hover {
-    color: #827081;
-}
-
-.social-links li a i {
-    font-size: 35px;
-    color: #C4A55F;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    color: #827081;
-}
-
 .footer-icon {
     margin-left: 100px;
 }
 
- @media (max-width: 1199px) {
+@media (max-width: 1199px) {
     .nav-item-list {
         text-align: left;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 } 
-
-/* @media (min-width: 768px) and (max-width: 1330px) {
-   .collapse {
-       display: none !important;
-   }
-} */
 
 @media only screen and (max-width: 1024px) {
     nav a {
@@ -500,22 +467,23 @@ footer {
         position: relative;
     }
     
-    /* .media {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+}
 
-    .quotes-img {
-        margin-bottom: 25px;
-        margin-top: 15px;
-        display: block;
-        margin-left: 50px;
-        margin-right: 50px;
-    } */
+@media only screen and (min-width: 1135px) and (max-width: 1800px) {
+
+    .footer-icon {
+    margin-left: 60px;
+    }
 
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1135px) {
+
+    .footer-icon {
+    margin-left: 40px;
+    }
+
+}
 
 @media only screen and (max-width: 414px) {
     .media {
@@ -539,9 +507,26 @@ footer {
         font-size: 20px;
     }
 
+    .social-link {
+        font-size: 20px;
+    }
+
+    .tour-link {
+        font-size: 20px;
+    }
+
+    .footer-icon {
+        margin-left: 20px;
+    }
+
+    .email-col {
+        flex-basis: auto;
+    }
 }
 
-
-@media only screen and (max-width: 576px) {
-    footer div 
+@media only screen and (min-width:1200px) and (max-width:1330px) {
+    nav div li {
+        margin-left: 1px;
+    }
+    
 }
