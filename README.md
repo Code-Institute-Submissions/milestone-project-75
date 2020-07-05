@@ -11,12 +11,11 @@ View live project <a href="https://">here
        * [3. Logo](#3-logo)
        * [4. Geometry](#4-geometry)
        * [5. Wireframes](#5-wireframes)
-* [Technology Used](#technology-used)
+* [Technologies Used](#technologies-used)
 * [Features](#features)
    * [Existing Features](#future-features)
    * [Future Features](#removed-features)
 * [Testing](#testing)
-   * [Defensive Design](#defensive-design)
 * [Deployment](#deployment)
 * [Credits](#credits)
    * [Special Thanks & Acknowledgements](#special-thanks--acknowledgements)
@@ -37,7 +36,7 @@ I have taken my knowledge learnt from the beginning three modules of the Full St
 <div style="text-align:center"><img src="assets/images/response.jpg" alt="Soul Gym Logo"></div>
 
 #### User Stories:
-* First Time visitor Goals
+* First Time Visitor Goals
     * As a first visitor, I want to be able to navigate through the entire site, comfortably and securely.
     * As a first time visitor, I want to be able to easily message the gym with any initial queires that I may have.
     * As a first time visitor, I want to learn more about the gym and what is available.
@@ -55,8 +54,8 @@ I have taken my knowledge learnt from the beginning three modules of the Full St
 * As a member of Soul Gym
     * As a member of Soul Gym, I want to be able to login to my account with the gym.
     * As a member of Soul Gym, I want to be able to book a class.
-    * As a frequent user, I want to be kept up to date on any new facilities and initiatives the gym is working towards
-    * As a frequent user, I want to be able to easily access a weekly class timetable, so I can plan my visits.
+    * As a member of Soul Gym, I want to be kept up to date on any new facilities and initiatives the gym is working towards
+    * As a member of Soul Gym, I want to be able to easily access a weekly class timetable, so I can plan my visits.
     * As a member of Soul Gym, I want to be able to submit any questions, feedback or complaints.
 
 [Back to Top](#table-of-contents)
@@ -107,15 +106,15 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 [Back to Top](#table-of-contents)
 
- #### Technology Used
+ ## **Technologies Used**
 
- ##### Languages,
+ #### Languages
 
  * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Language used to create the structure of the pages.
 
  * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Language used to add styling across all pages.
 
-##### Libraries, Frameworks and Editors
+#### Libraries, Frameworks and Editors
 
 * [Bootstrap 4.5.0](https://getbootstrap.com/) -used to creat basic HTML layout and structure and using Bootstraps CSS Framwework. The resposnsive grid system was utilised well.
 
@@ -133,7 +132,7 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Pexels](https://www.pexels.com/) - used to find images for use across site.
 
-##### Tools
+#### Tools
 
 * [Google](https://www.google.co.uk/) - was used for research various techniques, styles and information.
 
@@ -151,9 +150,11 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing the responsiveness of site and as the image found at top of page.
 
-#### Features
+* [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - used to format the HTML code in a neater and more organised fashion.
 
-##### Existing Features
+## **Features**
+
+#### Existing Features
 
 * Navbar - Featured across all pages, can be used for navigation between the pages of the site using the links on the right. These links also collapse down to a hamburger icon when at smaller screen sizes. The logo, found on the left, can be clicked on all pages and links directly to the home page.
 
@@ -173,7 +174,7 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * Join Now Button of Registration Form - Once the user has completed the registration form and clicks 'Join Now', they are redirected to an internal page providing them with feedback that the registration has gone through successfully. It is important to provide feedback to the user so they feel validated.
 
-##### Future Features
+#### Future Features
 
 * Gallery Page - A seperate page to showcase images of the gyms classes and innteractions with their customers. This would give the user a more concrete idea of how the gym operates through using friendly and fun images.
 
@@ -183,6 +184,7 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 [Back to Top](#table-of-contents)
 
-#### Testing
+## **Testing**
 
-Testing this site was cinducted mainly by myself, using various methods to identify any bugs throughout the site.
+Testing can be found via this [link](https://github.com/Gregory4321/milestone-project-1/blob/master/testing.md)
+
