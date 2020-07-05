@@ -59,6 +59,8 @@ I have taken my knowledge learnt from the beginning three modules of the Full St
     * As a frequent user, I want to be able to easily access a weekly class timetable, so I can plan my visits.
     * As a member of Soul Gym, I want to be able to submit any questions, feedback or complaints.
 
+[Back to Top](#table-of-contents)
+
 #### Design
 ##### 1. Colour Scheme
 
@@ -133,6 +135,8 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 
+* [Google Maps](https://www.google.co.uk/maps) - used to embed a map to the whereabouts of the gym.
+
 * [Balsamiq](https://balsamiq.com/) - used for creating the wireframes in the design stage.
 
 * [Coolors](https://coolors.co/) - used to find and compare colours that complimented one another.
@@ -142,6 +146,36 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 * [Picresize](https://picresize.com/) - wa also used to resize images for less specific wants, such as 25% or 50% smaller.
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing the responsiveness of site and as the image found at top of page.
+
+#### Features
+
+##### Existing Features
+
+* Navbar - Featured across all pages, can be used for navigation between the pages of the site using the links on the right. These links also collapse down to a hamburger icon when at smaller screen sizes. The logo, found on the left, can be clicked on all pages and links directly to the home page.
+
+* Footer - Also featured across all pages, the footer is used for imforming that the user can book a tour and provides a link in the fform of an icon to the contact page where said tour can be booked. This is found on the left third of the footeer. On the right third of the footer social icons can be found that link to required social page.
+
+* Hero images -  These can be found across the three main pages (Home, Classes and About), and display reference to what page the user is on. There is also text displayed on top of the image, relating to the page, as well as a call to action button linking to desired pages - Register page from the Home and About pages, and Contact page from the Classes page, encouraging the user to register to the gym and book a class. The is also a hero image used on the homepage at the bottom to advertise the coming soon of a spa. This is to ensure the user that the gym is still a growing platform, forever moving forward.
+
+* Testimonials - The 'Why Choose Us' section was created to showcase to the user wha other customers made of the gym and what it has to offer
+
+* Classes Page - This page showcases what classes are available, informing the user what to expect from each class. It also contains a timetable that the user can use to decide what classes they can take on a particular day and time.
+
+* About Page - This page was creatd to give the user a feeling of how the gym came about, providing a story into the feel of the gyms owner and what the gyms goals are
+
+* Contact Page - This page presents a form to contact the gym about information, booking a class, booking a tour, and any other general enquiries. The user can also find the contact details of the gym below, with an interactive map that can be clicked on and viewed on a larger scale in a seperate tab.
+
+* Forms - Forms were used on the login and register page. The user is invited to sign up to the gym by filling out the form, or alternatively sign in to their already crearted account.
+
+##### Future Features
+
+* Gallery Page - A seperate page to showcase images of the gyms classes and innteractions with their customers. This would give the user a more concrete idea of how the gym operates through using friendly and fun images.
+
+* Donate Page / Modal - As described in the story on the about page, the gym donates 20% of its earnings to help towards the rebuilding of the ashram that the owner was mentored in in Bangalore. A page where members and/or non-members can help contribute themselves towards the rebuilding of communities and temples.
+
+* A more defined view of membership costs by perhaps creating a membership page containg different packages on offer.
+
+
 
 
 
