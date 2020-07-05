@@ -1,327 +1,309 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <script
-      src="https://kit.fontawesome.com/effa04c263.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Soul Gym</title>
-  </head>
-  <body class="h-100">
-    <header>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-xl navbar-light nav-bg py-0">
-        <a class="navbar-brand logo" href="index.html">
-          <img src="assets/images/sg_logo.jpg" alt="Soul Gym Logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse nav-item-list justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav main-nav" id="menu">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="classes.html"
-                >Classes <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-            <li class="nav-item last-nav">
-              <a class="nav-link" href="register.html">Register</a>
-            </li>
-          </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            type="text/css"
+            />
+        <script
+            src="https://kit.fontawesome.com/effa04c263.js"
+            crossorigin="anonymous"
+            ></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Soul Gym</title>
+    </head>
+    <body class="h-100">
+        <header>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-xl navbar-light nav-bg py-0">
+                <a class="navbar-brand logo" href="index.html">
+                <img src="assets/images/sg_logo.jpg" alt="Soul Gym Logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse nav-item-list justify-content-end"
+                    id="navbarNav"
+                    >
+                    <ul class="navbar-nav main-nav" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="classes.html"
+                                >Classes <span class="sr-only">(current)</span></a
+                                >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item last-nav">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Callout-->
+        <div class="jumbotron-container-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron text-center">
+                        <h1 class="headline">Classes</h1>
+                        <h3 class="description">Find What's Right For You</h3>
+                        <a class="btn outline-dark btn-lg button-colour" href="contact.html">
+                        Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-    </header>
-
-    <!--Callout-->
-
-    <div class="jumbotron-container-3">
-      <div class="row">
-        <div class="col-12">
-          <div class="jumbotron text-center">
-            <h1 class="headline">Classes</h1>
-            <h3 class="description">Find What's Right For You</h3>
-            <a class="btn outline-dark btn-lg button-colour" href="contact.html">
-              Book Now
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="container-fluid">
-    <div class="row">
-    <div class="col">
-    <h2 class="classes-head text-center">What We Offer</h2>
-    </div>
-    </div>
-    <hr class="block-divider" />
-
-
-<!--Classes Cards-->
-
-<div class="row">
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/yoga.jpg" class="card-img-top" alt="Yoga Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Yoga</h5>
-        <p class="card-text my-card-text">Whether you’re looking for an awakening Ashtanga series or craving a Vinyasa flow, you’ll find your perfect class here. Our instructors are helpful, inspiring and bring their own individual flare to each session</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/pilates.jpg" class="card-img-top" alt="Pilates Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Pilates</h5>
-        <p class="card-text my-card-text">The low-impact exercise that will improve your posture and boost muscle strength. Perfect for anyone looking to strengthen their core, power up back muscles and tone inner and outer thighs</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/meditation.jpg" class="card-img-top" alt="Meditation Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Meditation</h5>
-        <p class="card-text my-card-text">Escape the hustle and bustle of city life and tune in to your own higher vibrations. We offer a range of meditation classes from guided mindfulness practices to soothing gong baths</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/cardio.jpg" class="card-img-top" alt="Cardio Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Cardio</h5>
-        <p class="card-text my-card-text">Get that heart pumping with our wide range of cardio blasts. HIIT, Tabata, Spin and many more. You name it, we do it – and we do it well. With instructors who will help you push harder, you’re sure to reach your goals</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/swimming.jpg" class="card-img-top" alt="Swimming Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Swimming</h5>
-        <p class="card-text my-card-text">Whatever your ability, we’ve got a swim session that’s right for you. Whether you’re looking to take it slow or you’re training for a triathlon, our state of the art pool provides the perfect arena</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-lg-4">
-  <div class="card mx-auto w-75 card-border all-cards">
-  <img src="assets/images/weight-t.jpg" class="card-img-top" alt="Weight Training Class Image">
-    <div class="card">
-      <div class="card-body text-center card-bg">
-        <h5 class="card-title card-head">Weight Training</h5>
-        <p class="card-text my-card-text">Tone and strengthen your muscles with our targeted weight training classes. With the soul focus on building power and body shaping, these sessions are designed for everyone – ladies included!</p>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-  <!--Timetable-->
-    
-    <div class="container-fluid">
-<div class="row">
-    <div class="col">
-    <h2 class="classes-head text-center">Timetable</h2>
-    </div>
-    </div>
-    <hr class="block-divider" />
-<div class="all-table">
-    <table class="table table-bordered table-hover table-bottom">
-  <thead>
-    <tr class="table-classes">
-      <th scope="col">Day</th>
-      <th scope="col">Yoga</th>
-      <th scope="col">Pilates</th>
-      <th scope="col">Meditation</th>
-      <th scope="col">Cardio</th>
-      <th scope="col">Swimming</th>
-      <th scope="col">Weight Training</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row" class="table-days">Monday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>20:00 - 21:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Tuesday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>20:00 - 21:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Wednesday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>20:00 - 21:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Thursday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>20:00 - 21:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Friday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>20:00 - 21:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Saturday</th>
-      <td>07:30 - 08:30<br>18:00 - 19:00</td>
-      <td>09:00 - 10:00<br>16:00 - 17:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>19:00 - 20:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-    <tr>
-      <th scope="row" class="table-days">Sunday</th>
-      <td>10:30 - 12:00<br>18:00 - 19:00</td>
-      <td>12:00 - 13:00<br>17:00 - 18:00</td>
-      <td>10:00 - 11:00<br>19:30 - 20:00</td>
-      <td>10:30 - 11:30<br>19:00 - 20:00</td>
-      <td>18:00 - 19:00</td>
-      <td>08:00 - 09:00<br>17:00 - 18:00</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-    </div>
-    
-    
-    </section>
-    <!--Footer-->
-
-    <footer class="containter-fluid mt-auto" id="footer">
-      <div class="row">
-        <!--Book tour link-->
-        <div class="col-lg-4 footer-align">
-          <p class="tour-book inline-block">
-            Want to See More? Book A Tour Here
-            <span class="tour-link">
-              <a href="contact.html">
-                <i class="far fa-calendar-alt" aria-hidden="true"></i>
-                <span class="sr-only">Book Tour Link</span>
-              </a>
-            </span>
-          </p>
-        </div>
-
-        <!--Empty div to create equal spacing-->
-        <div class="col-lg-4 blank-div"></div>
-
-        <!--Social Links-->
-        <div class="col-lg-4 footer-align">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.instagram.com">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.twitter.com">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.youtube.com">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="classes-head text-center">What We Offer</h2>
+                </div>
+            </div>
+            <hr class="block-divider" />
+            <!--Classes Cards-->
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/yoga.jpg" class="card-img-top" alt="Yoga Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Yoga</h5>
+                                <p class="card-text my-card-text">Whether you’re looking for an awakening Ashtanga series or craving a Vinyasa flow, you’ll find your perfect class here. Our instructors are helpful, inspiring and bring their own individual flare to each session</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/pilates.jpg" class="card-img-top" alt="Pilates Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Pilates</h5>
+                                <p class="card-text my-card-text">The low-impact exercise that will improve your posture and boost muscle strength. Perfect for anyone looking to strengthen their core, power up back muscles and tone inner and outer thighs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/meditation.jpg" class="card-img-top" alt="Meditation Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Meditation</h5>
+                                <p class="card-text my-card-text">Escape the hustle and bustle of city life and tune in to your own higher vibrations. We offer a range of meditation classes from guided mindfulness practices to soothing gong baths</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/cardio.jpg" class="card-img-top" alt="Cardio Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Cardio</h5>
+                                <p class="card-text my-card-text">Get that heart pumping with our wide range of cardio blasts. HIIT, Tabata, Spin and many more. You name it, we do it – and we do it well. With instructors who will help you push harder, you’re sure to reach your goals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/swimming.jpg" class="card-img-top" alt="Swimming Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Swimming</h5>
+                                <p class="card-text my-card-text">Whatever your ability, we’ve got a swim session that’s right for you. Whether you’re looking to take it slow or you’re training for a triathlon, our state of the art pool provides the perfect arena</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card mx-auto w-75 card-border all-cards">
+                        <img src="assets/images/weight-t.jpg" class="card-img-top" alt="Weight Training Class Image">
+                        <div class="card">
+                            <div class="card-body text-center card-bg">
+                                <h5 class="card-title card-head">Weight Training</h5>
+                                <p class="card-text my-card-text">Tone and strengthen your muscles with our targeted weight training classes. With the soul focus on building power and body shaping, these sessions are designed for everyone – ladies included!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Timetable-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="classes-head text-center">Timetable</h2>
+                    </div>
+                </div>
+                <hr class="block-divider" />
+                <div class="all-table">
+                    <table class="table table-bordered table-hover table-bottom">
+                        <thead>
+                            <tr class="table-classes">
+                                <th scope="col">Day</th>
+                                <th scope="col">Yoga</th>
+                                <th scope="col">Pilates</th>
+                                <th scope="col">Meditation</th>
+                                <th scope="col">Cardio</th>
+                                <th scope="col">Swimming</th>
+                                <th scope="col">Weight Training</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="table-days">Monday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>20:00 - 21:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Tuesday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>20:00 - 21:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Wednesday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>20:00 - 21:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Thursday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>20:00 - 21:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Friday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>20:00 - 21:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Saturday</th>
+                                <td>07:30 - 08:30<br>18:00 - 19:00</td>
+                                <td>09:00 - 10:00<br>16:00 - 17:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>19:00 - 20:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="table-days">Sunday</th>
+                                <td>10:30 - 12:00<br>18:00 - 19:00</td>
+                                <td>12:00 - 13:00<br>17:00 - 18:00</td>
+                                <td>10:00 - 11:00<br>19:30 - 20:00</td>
+                                <td>10:30 - 11:30<br>19:00 - 20:00</td>
+                                <td>18:00 - 19:00</td>
+                                <td>08:00 - 09:00<br>17:00 - 18:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="containter-fluid mt-auto" id="footer">
+            <div class="row">
+                <!--Book tour link-->
+                <div class="col-lg-4 footer-align">
+                    <p class="tour-book inline-block">
+                        Want to See More? Book A Tour Here
+                        <span class="tour-link">
+                        <a href="contact.html">
+                        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                        <span class="sr-only">Book Tour Link</span>
+                        </a>
+                        </span>
+                    </p>
+                </div>
+                <!--Empty div to create equal spacing-->
+                <div class="col-lg-4 blank-div"></div>
+                <!--Social Links-->
+                <div class="col-lg-4 footer-align">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.instagram.com">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.twitter.com">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.youtube.com">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+            ></script>
+    </body>
 </html>

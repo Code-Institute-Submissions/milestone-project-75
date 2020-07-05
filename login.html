@@ -1,195 +1,183 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <script
-      src="https://kit.fontawesome.com/effa04c263.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Soul Gym</title>
-  </head>
-  <body class="h-100">
-    <header>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-xl navbar-light nav-bg py-0">
-        <a class="navbar-brand logo" href="index.html">
-          <img src="assets/images/sg_logo.jpg" alt="Soul Gym Logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse nav-item-list justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav main-nav" id="menu">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="classes.html">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="login.html"
-                >Login <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item last-nav">
-              <a class="nav-link" href="register.html">Register</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <!--Form Header-->
-    <section>
-      <div class="container-fluid my-container">
-        <div class="row">
-          <div class="col-md-2 d-sm-none d-md-block my-col-1"></div>
-          <div class="col-md-8 col-sm-12 my-col all-form-2">
-            <h1 class="form-headers">Member Login</h1>
-            <hr class="block-divider" />
-            <h4 class="form-headers question">
-              Not a Member Yet?
-              <a class="form-headers sign-up-link" href="register.html"
-                >Sign Up</a
-              >
-            </h4>
-        <!--Login Form-->
-            <form
-              class="form-style" action="index.html"
-            >
-              <div class="form-group">
-                <label for="InputEmail" class="form-labels"
-                  >Email address / Username</label
-                >
-                <input
-                  type="email"
-                  class="form-control form-control-lg"
-                  id="InputEmail"
-                  aria-describedby="emailHelp"
-                  placeholder="email@example.com / Username123"
-                  required
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="InputPassword" class="form-labels">Password</label>
-                <input
-                  type="password"
-                  class="form-control form-control-lg"
-                  id="InputPassword"
-                  placeholder="password"
-                  pattern=".{8,12}" 
-                  required title="8 to 12 characters"
-                />
-              </div>
-              <button type="submit" class="btn outline-dark button-colour">
-                Submit
-              </button>
-
-    
-
-              
-            </form>
-          </div>
-          <div class="col-md-2 d-sm-none d-md-block my-col-2"></div>
-        </div>
-      </div>
-    </section>
-
-    <!--Footer-->
-
-    <footer class="containter-fluid mt-auto" id="footer">
-      <div class="row">
-        <!--Book tour link-->
-        <div class="col-lg-4 footer-align">
-          <p class="tour-book inline-block">
-            Want to See More? Book A Tour Here
-            <span class="tour-link">
-              <a href="contact.html">
-                <i class="far fa-calendar-alt" aria-hidden="true"></i>
-                <span class="sr-only">Book Tour Link</span>
-              </a>
-            </span>
-          </p>
-        </div>
-
-        <!--Empty div to create equal spacing-->
-        <div class="col-lg-4 blank-div"></div>
-
-        <!--Social Links-->
-        <div class="col-lg-4 footer-align">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.instagram.com">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.twitter.com">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item footer-icon">
-              <a target="_blank" href="https://www.youtube.com">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            type="text/css"
+            />
+        <script
+            src="https://kit.fontawesome.com/effa04c263.js"
+            crossorigin="anonymous"
+            ></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Soul Gym</title>
+    </head>
+    <body class="h-100">
+        <header>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-xl navbar-light nav-bg py-0">
+                <a class="navbar-brand logo" href="index.html">
+                <img src="assets/images/sg_logo.jpg" alt="Soul Gym Logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse nav-item-list justify-content-end"
+                    id="navbarNav"
+                    >
+                    <ul class="navbar-nav main-nav" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="login.html"
+                                >Login <span class="sr-only">(current)</span></a
+                                >
+                        </li>
+                        <li class="nav-item last-nav">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Form Header-->
+        <section>
+            <div class="container-fluid my-container">
+                <div class="row">
+                    <div class="col-md-2 d-sm-none d-md-block my-col-1"></div>
+                    <div class="col-md-8 col-sm-12 my-col all-form-2">
+                        <h1 class="form-headers">Member Login</h1>
+                        <hr class="block-divider" />
+                        <h4 class="form-headers question">
+                            Not a Member Yet?
+                            <a class="form-headers sign-up-link" href="register.html"
+                                >Sign Up</a
+                                >
+                        </h4>
+                        <!--Login Form-->
+                        <form
+                            class="form-style" action="index.html"
+                            >
+                            <div class="form-group">
+                                <label for="InputEmail" class="form-labels"
+                                    >Email address / Username</label
+                                    >
+                                <input
+                                    type="email"
+                                    class="form-control form-control-lg"
+                                    id="InputEmail"
+                                    aria-describedby="emailHelp"
+                                    placeholder="email@example.com / Username123"
+                                    required
+                                    />
+                                <small id="emailHelp" class="form-text text-muted"
+                                    >We'll never share your email with anyone else.</small
+                                    >
+                            </div>
+                            <div class="form-group">
+                                <label for="InputPassword" class="form-labels">Password</label>
+                                <input
+                                    type="password"
+                                    class="form-control form-control-lg"
+                                    id="InputPassword"
+                                    placeholder="password"
+                                    pattern=".{8,12}" 
+                                    required title="8 to 12 characters"
+                                    />
+                            </div>
+                            <button type="submit" class="btn outline-dark button-colour">
+                            Submit
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-2 d-sm-none d-md-block my-col-2"></div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="containter-fluid mt-auto" id="footer">
+            <div class="row">
+                <!--Book tour link-->
+                <div class="col-lg-4 footer-align">
+                    <p class="tour-book inline-block">
+                        Want to See More? Book A Tour Here
+                        <span class="tour-link">
+                        <a href="contact.html">
+                        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+                        <span class="sr-only">Book Tour Link</span>
+                        </a>
+                        </span>
+                    </p>
+                </div>
+                <!--Empty div to create equal spacing-->
+                <div class="col-lg-4 blank-div"></div>
+                <!--Social Links-->
+                <div class="col-lg-4 footer-align">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.instagram.com">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.twitter.com">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer-icon">
+                            <a target="_blank" href="https://www.youtube.com">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+            ></script>
+    </body>
 </html>
