@@ -79,7 +79,7 @@
             </h4>
 <!--Register Form-->
             <form
-              class="form-style"
+              class="form-style" action="thankyou.html"
             >
               <div class="form-group">
                 <label for="InputName" class="form-labels">Username</label>
@@ -132,12 +132,12 @@
                   class="form-control form-control-lg"
                   id="ConfirmPassword"
                   placeholder="confirm password"
-                  required
+                  pattern=".{8,12}" 
+                  required title="8 to 12 characters"
                 />
               </div>
-            <a class="btn outline-dark button-colour" href="thankyou.html">
-              Join Now
-            </a>
+            
+            <button type="submit" class=" btn outline-dark button-colour">Join Now</button>
         </form>
           </div>
           <div class="col-md-2 d-sm-none d-md-block my-col-2"></div>
