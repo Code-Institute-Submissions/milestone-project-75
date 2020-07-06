@@ -9,15 +9,15 @@
     * [User Testing](#user-testing)
         * [Peer Code Review](peer-code-review)
         * [User Review](user-review)
-        * [Further Testing](#further-testing)
-        * [Known Bugs](#known-bugs)
+    * [Further Testing](#further-testing)
+    * [Known Bugs](#known-bugs)
 ***
 
 Testing this site was conducted using various methods to identify any bugs throughout the site.
 
 ## W3C Validators
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the code on all of the pages, to make sure that there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the code on all of the pages, to make sure that there were no syntax errors in the project. Both the HTML and CSS code was ran through these services regualarly throught the building of the project to ensure code was valid throughout the process, and to avoid nasty suprises at the end. 
 
 * [W3C Markup Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)

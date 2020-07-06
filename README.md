@@ -1,5 +1,5 @@
 # Milestone Project 1 - Soul Gym
-View live project <a href="https://">here
+View live project <a href="https://gregory4321.github.io/milestone-project-1/">here
 ***
 ## Table of Contents:
 * [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
@@ -18,7 +18,11 @@ View live project <a href="https://">here
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
-   * [Special Thanks & Acknowledgements](#special-thanks--acknowledgements)
+    * [Content](#content)
+    * [Code](#code)
+    * [Media](#media)
+* [Acknowledgements](#acknowledgements)
+* [Special Thanks](#special-thanks)
 ***
 
 ## ![Soul Gym Logo](assets/images/sg_logo.jpg)
@@ -69,8 +73,8 @@ Colours I used are:
 
 * ECEAEA - Platinum - Primary Colour
 * C4A55F - Light French Beige - Secondary Colour
-* 827081 - Old Lavender
-* 000000 - Black
+* 827081 - Old Lavender - Accent Colour
+* 000000 - Black - Text Colour
 
 The primary colour used throughout the pages was used as the main colour. It supported the Navbar and footer, as well as the background colour for my forms and individual cards on both the classses page and the about page.<br>
 I originally used the secondary colour within my logo, and found it had such a great contrast to the 'Platinum' colour. I implemented it for use as the icons colour, the various buttons colour, table hover, and the names of the people in the quotes section.<br>
@@ -146,7 +150,7 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Canva](https://www.canva.com/) - was used to design and create the logo, and also to resize images to specific dimensions.
 
-* [Picresize](https://picresize.com/) - wa also used to resize images for less specific wants, such as 25% or 50% smaller.
+* [Picresize](https://picresize.com/) - was also used to resize images for less specific wants, such as 25% or 50% smaller.
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing the responsiveness of site and as the image found at top of page.
 
@@ -188,3 +192,76 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 Testing can be found via this [link](https://github.com/Gregory4321/milestone-project-1/blob/master/testing.md)
 
+## **Deployment**
+
+This multi-page web site was developed in Gitpod, and pushed to the remote repository on Github. 
+
+## **Credits**
+
+#### Content
+
+All content on the web pages was written by me, the developer, with inspiration taken from other gym and yoga sites. 
+
+#### Code
+
+* The code throughout the project used [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) as its base to create a responsive site, utilising the Bootstrap grid system.
+
+* Inspiration on how to place and style the hero images was taken from Stack Overflow posts.
+
+* All other code was written by me, the developer.
+
+#### Media
+
+The images used on the website were taken from two different image libraries:
+
+* [Unsplash](https://unsplash.com/)
+
+* [Pexels](https://www.pexels.com/)
+
+These images were then resized to suit the wants of me, the developer, using these two sites:
+
+* [Canva](https://www.canva.com/)
+
+* [Picresize](https://picresize.com/)
+
+The logo image was created and exported to my computer using the site [Canva](https://www.canva.com/)
+
+## **Acknowledgements**
+
+#### Pages used for Inspiration
+
+[More Yoga](https://www.moreyoga.co.uk/)
+
+[Gym Box](https://www.gymbox.com/)
+
+[Hot House Yoga](https://hothouseyogi.com/)
+
+#### Pages used for information
+
+* [Stack overflow](https://stackoverflow.com/)
+
+* [W3schools](https://www.w3schools.com/)
+
+* [CSS-Tricks](https://css-tricks.com/)
+
+* [Code Institute](https://codeinstitute.net/)
+
+* [Code Institute Sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+* [Slack](https://slack.com/intl/en-gb/)
+
+* [Youtube](https://www.youtube.com/watch?v=qmPmwdshCMw)
+
+* [Code Pen](https://codepen.io/)
+
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+#### Special Thanks
+
+* Seun Owonikoko @seun_mentor my mentor for the support and guidance she gave thoughout the build of this project.
+
+* Tutor Support at Code Institute to giving me acceptance when I needed more time, and giving me that initial push that really got me going. Xavier you elped me more than I think you know. 
+
+* Anthony 0'Brien form the Slack Community for supporting me along the way by answering my stupid-questions and giving me guidance on solving an problem I had with the form and the submit button.
+
+* Code Institute for the informative lessons they provide.
