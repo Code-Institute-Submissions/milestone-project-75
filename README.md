@@ -17,6 +17,8 @@ View live project <a href="https://gregory4321.github.io/milestone-project-1/">h
    * [Future Features](#removed-features)
 * [Testing](#testing)
 * [Deployment](#deployment)
+    * [Hosting on Github Pages](#hosting-on-github-pages)
+    * [Running Project Locally](#running-project-locally)
 * [Credits](#credits)
     * [Content](#content)
     * [Code](#code)
@@ -194,7 +196,31 @@ Testing can be found via this [link](https://github.com/Gregory4321/milestone-pr
 
 ## **Deployment**
 
-This multi-page web site was developed in Gitpod, and pushed to the remote repository on Github. 
+This multi-page web site was developed in Gitpod, and pushed to the remote repository on Github.
+
+#### Hosting on Github Pages
+
+The project was deployed through Github pages. This was achieved by following these steps:
+
+* Login in to Github and locate and click the Github repository on the left side of the screen.
+* At the top of the repository, locate and select the "Settings" button.
+* Scroll down to the 'Github Pages' section.
+* Use the dropdown menu under "Source" to change from 'none' and select 'master branch'.
+* The page then automatically refreshes and takes the user back to the top of the page.
+* Scroll back down to the 'Github Pages' section. A ribbon notification is now displayed containing the link to the deployed site.
+* The ribbon notification displays this message:  Your site is published at https://gregory4321.github.io/milestone-project-1/
+* I have provided this link at the top of the README file.
+
+#### Running Project Locally 
+
+To run your own version of this project, it can be cloned or downloaded from Github by following these steps:
+
+* Select the repository from the Github dashboard.
+* Click on the green "Code" button, and click the 'clipboard icon' to copy the URL. It may also be displayed as a "Clone or Download" green button.
+* Open the terminal window of your desired local IDE (Integrated Development Environment).
+* Choose the working directory to the location you would like to have the cloned repository.
+* Type 'git clone' in the terminal window, and then paste the URL you copied.
+* Press enter and the clone will be created.
 
 ## **Credits**
 
@@ -264,4 +290,6 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 * Anthony 0'Brien form the Slack Community for supporting me along the way by answering my stupid-questions and giving me guidance on solving an problem I had with the form and the submit button.
 
-* Code Institute for the informative lessons they provide.
+* Code Institute for the informative lessons and teachings they provide.
+
+[Back to Top](#table-of-contents)
