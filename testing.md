@@ -3,12 +3,14 @@
 ## Table of Contents:
 * [W3C Validators](#w3c-validators)
 * [DevTools](#devtools)
-* [Testing](#testing)
-    * [User Stories from User Experince (UX) Section](#testing-user-stories-from-user-experience-(ux)-section)
+* [Site Testing](#site-testing)
+    * [User Stories from User Experince (UX) Section](#user-stories-from-user-experience-(ux)-section)
         * [First Time Visitor Goals](#first-time-visitor-goals)
     * [User Testing](#user-testing)
-        * [1. Peer Code Review](#1-peer-code-review)
-        * [2. User Review](#2-user-review)
+        * [Peer Code Review](peer-code-review)
+        * [User Review](user-review)
+        * [Further Testing](#further-testing)
+        * [Known Bugs](#known-bugs)
 ***
 
 Testing this site was conducted using various methods to identify any bugs throughout the site.
@@ -31,7 +33,7 @@ Google Chrome DevTools was used for vigorous testing of the site. It was used fo
 * Debugging
     * Highlighted incorrect use of styling and/or Bootstrap.
 
-## Testing 
+## Site Testing 
 
 ### User Stories from User Experience (UX) Section
 
@@ -85,17 +87,25 @@ Google Chrome DevTools was used for vigorous testing of the site. It was used fo
     * As a member of Soul Gym, I want to be able to submit any questions, feedback or complaints.
         * The navbar cleary presents a contact option. A form is first seen after the heading of 'Got a question'. The user can use this form for any query, complaint or feedbak they like.
 
+
 [Back to Top](#table-of-contents)
 
 ### User Testing
 
+Once my project was near on finsihed, minus the odd bug issue, I sent it out to be reviewed.
+
 #### Peer-code-review
 
-My project was submitted to the peer-code-review channel page of the Slack community for Code Institute. The overall reviews were positive, providing compliments of dynamic and fluid structure to the scrolling image of the homepage, and a clean and tidy spacing of the elemtns of the page.
+My project was submitted to the peer-code-review channel page of the Slack community for Code Institute. The overall reviews were positive, providing compliments of dynamic and fluid structure to the scrolling image of the homepage, and a clean and tidy spacing of the elements of the page.
 
 Improvements were also suggested, notifying of a bug with the navbar when viewed on Firefox, and advise of checking if Bootstraps container-fluid is neccesary over just a container. 
 
 #### User Review
 
-The general reviews of my page were positive, commenting on the inviting colours used. The structure was complemented along with the ease of navigation, and the site not being too busy with colours and content.
+My project was also sent out to various friends and family members, to review the site thouroughly and read through the supporting documentation. It provided feedback from different age classes of people, as well as notifying of any bugs and/or user experience issues. The general reviews of my page were positive, commenting on the inviting colours used. The structure was complemented along with the ease of navigation, and the site not being too busy with colours and content.
 
+### Further Testing
+The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers. It waas viewed upon a range of deifferent devices, such as Desktop, Laptops, iphone 5S, iPhone 8 plus, iphoneX, iPad 2019, and Samsung Galaxy. A lot of testing was carried out to make sure the links were working correctly.
+
+### Known Bugs
+On Mozilla Firefox, the navbar links jump to the left when hovered over.
