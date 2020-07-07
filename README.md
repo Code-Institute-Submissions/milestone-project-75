@@ -265,11 +265,11 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 #### Pages used for inspiration
 
-[More Yoga](https://www.moreyoga.co.uk/)
+* [More Yoga](https://www.moreyoga.co.uk/)
 
-[Gym Box](https://www.gymbox.com/)
+* [Gym Box](https://www.gymbox.com/)
 
-[Hot House Yoga](https://hothouseyogi.com/)
+* [Hot House Yoga](https://hothouseyogi.com/)
 
 #### Pages used for information
 
@@ -295,7 +295,7 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 * Seun Owonikoko @seun_mentor, my mentor, for the support and guidance she gave thoughout the build of this project.
 
-* Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. Xavier you helped me more than I think you know. 
+* Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. Xavier from tutor support, your advice and guidance helped me more than I think you know. 
 
 * Anthony 0'Brien from the Slack Community for supporting me along the way by answering my stupid-questions and giving me guidance on solving any problems I had with the forms and the 'Submit' button.
 
