@@ -9,10 +9,6 @@ div {
     display: block;
 }
 
-main > .container {
-    padding-top: 60px;
-}
-
 .row {
     margin: 0;
 }
@@ -31,6 +27,14 @@ main > .container {
 
 /*-----------------------------------------------------------Navbar */
 
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 
 .logo {
     margin-left: 10px;
@@ -119,24 +123,29 @@ nav div li {
 
 /*-----------------------------------------------------------Home Page */
 
+.main {
+    margin-top: 90px;
+}
+
 .jumbotron {
-    background-color: transparent;
+    background-color: transparent; 
 }
 
 .jumbotron-container {
     background: url("../images/home-image.jpg") no-repeat center center fixed;
     height: 70vh;
-    background-size: cover;  
+    background-size: cover;
+    
 }
 
 /*-----------------------------------------------------------Coming Soon Home Page Section  */
 
  .jumbotron-container-2 {
-    height: 100%;
+    height: 80%;
     position: relative;
 }
 
-.jumbotron-container-2::before {    
+.jumbotron-container-2::before {
       content: "";
       background: url("../images/spa.jpg") no-repeat center center fixed;
       background-size: cover;
@@ -145,10 +154,14 @@ nav div li {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.7;
+      opacity: 0.5;
 }
 
-/*-----------------------------------------------------------Home Page, Classes Pag and About Page */
+.coming-soon {
+    transform: translateY(70%)
+}
+
+/*-----------------------------------------------------------Home Page, Classes Page and About Page */
 
 .headline {
     font-family: 'Noto Sans', sans-serif;
@@ -166,7 +179,7 @@ nav div li {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 /*-----------------------------------------------------------Home Page Quotes */
@@ -250,6 +263,7 @@ nav div li {
 
 .all-cards {
     margin-bottom: 80px;
+    width: 75%;
 }
 
 /*-----------------------------------------------------------Timetable Classes Page  */
@@ -257,6 +271,7 @@ nav div li {
 .table-classes {
     letter-spacing: 2px;
     font-weight: 300;
+    background-color: #ECEAEA;
 }
 
 .table-days {
@@ -265,10 +280,6 @@ nav div li {
 
 tr:hover td {
     background-color: #C4A55F;
-}
-
-.table-bottom {
-    margin-bottom: 80px;
 }
 
 /*-----------------------------------------------------------About Page */
@@ -302,7 +313,7 @@ tr:hover td {
 
 .all-form {
     margin-top: 150px;
-    margin-bottom: 211px;
+    margin-bottom: 210px;
 }
 
 .all-form-2 {
@@ -341,7 +352,7 @@ tr:hover td {
 /*-----------------------------------------------------------Contact Form */
 
 .contact-d {
-    margin-top: 190px;
+    margin-top: 150px;
 }
 
 .find-us {
@@ -359,13 +370,17 @@ tr:hover td {
     font-weight: 400;
     font-size: 24px;
     text-decoration: underline;
+    color: #C4A55F;
 }
 
 .find-us p {
     font-family: inherit;
     font-weight: 300;
     font-size: 18px;
-    
+}
+
+.con-icon {
+    margin-right: 6px;
 }
 
 iframe {
@@ -425,6 +440,23 @@ footer {
     margin-left: 100px;
 }
 
+/*-----------------------------------------------------------Media Queries */
+
+
+@media only screen and (min-width: 1135px) and (max-width: 1800px) {
+    .footer-icon {
+        margin-left: 60px;
+    }
+
+}
+
+@media only screen and (min-width:1200px) and (max-width:1330px) {
+    nav div li {
+        margin-left: 1px;
+    }
+    
+}
+
 @media (max-width: 1199px) {
     .nav-item-list {
         text-align: left;
@@ -474,20 +506,114 @@ footer {
         position: relative;
     }
     
-}
+    .all-form {
+        margin-top: 220px;
+        margin-bottom: 60px;
+    }
 
-@media only screen and (min-width: 1135px) and (max-width: 1800px) {
+    .find-us {
+        margin-top: 50px;
+    }
 
-    .footer-icon {
-    margin-left: 60px;
+    .block-divider {
+        margin-bottom: 2rem;
+    }
+
+    .question {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .contact-d {
+        margin-top: 50px;
+    }
+
+    .all-form-2 {
+        margin-top: 200px;
+        margin-bottom: 545px;
+    }
+
+    .all-form-3 {
+        margin-top: 200px;
+        margin-bottom: 290px;
+    }
+
+    .quotes {
+        margin: 30px 50px;
+    }
+
+    .main {
+        margin-top: 160px;
     }
 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1135px) {
-
     .footer-icon {
-    margin-left: 40px;
+        margin-left: 40px;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1366px) {
+.coming-soon {
+        transform: translateY(20%);
+    }
+}
+
+@media only screen and (min-width:630px) and (max-width:770px) {
+    .coming-soon {
+        transform: translateY(10%);
+    }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .all-form {
+        margin-top: 170px;
+        margin-bottom: 50px;
+    }
+
+    .find-us {
+        margin-top: 50px;
+    }
+
+    .block-divider {
+        margin-bottom: 2rem;
+    }
+
+    .question {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .contact-d {
+        margin-top: 50px;
+    }
+    
+    .all-form-2 {
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+
+    .all-form-3 {
+        margin-top: 150px;
+        margin-bottom: 60px;
+    }
+
+    .quotes {
+        margin: 30px 50px;
+    }
+
+    .main {
+        margin-top: 120px;
+    }
+
+}
+
+@media only screen and (min-width:415px) and (max-width:630px) {
+    .coming-soon {
+        transform: translateY(0%);
     }
 
 }
@@ -501,9 +627,8 @@ footer {
 
     .quotes-img {
         margin-bottom: 25px;
-        margin-top: 15px;
-        display: block;
-        margin-left: 50px;
+        margin-top: 10px;
+        margin-left: 90px;
     }
 
     .hp-head {
@@ -529,11 +654,97 @@ footer {
     .email-col {
         flex-basis: auto;
     }
-}
 
-@media only screen and (min-width:1200px) and (max-width:1330px) {
-    nav div li {
-        margin-left: 1px;
+    .all-cards {
+        width: 100%;
     }
     
+    .jumbotron-container-2{
+        height: 100%;
+    }
+
+    .coming-soon {
+        transform: translateY(0%);
+    }
+
+    .contact-d {
+        margin-top: 50px;
+    }
+
+    .all-form {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .find-us {
+        margin-top: 50px;
+    }
+
+    .block-divider {
+        margin-bottom: 2rem;
+    }
+
+    .question {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .all-form-2 {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .quotes {
+        margin: 30px 50px;
+    }
+
+    .main {
+        margin-top: 64px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .quotes-img {
+        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .quotes {
+        margin: 20px 40px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:360px) {
+    .main {
+        margin-top: 60px;
+    }
+
+    .jumbotron-container-4 {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .coming-soon {
+        transform: translateY(-20%);
+    }
+
+    .jumbotron-container-2 {
+        height: 130%;
+    }
+
+    .jumbotron-container-3 {
+        height: 60%;
+    }
+
+    .jumbotron-container-4 {
+        height: 80vh;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
 }
