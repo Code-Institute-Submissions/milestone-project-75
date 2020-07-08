@@ -31,6 +31,7 @@ Google Chrome DevTools was used for rigorous testing of the site. It was used fo
     * Containers were discovered to be of good use to keep structure flowing.
 * Debugging
     * Highlighted incorrect use of styling and/or Bootstrap.
+    * The coming soon text was pushed off the screen, social icons wrapping together, and navbar links were falling off the screen. All of these issues were addressed using media queires to alter sizes and positioning across the various screen sizes.
 
 ## Site Testing 
 
@@ -105,4 +106,4 @@ I was advised to check if Bootstrap's 'container-fluid' property was neccesary o
 My project was also sent out to various friends and family members to review the site thouroughly and read through the supporting documentation. I received feedback from people of different ages and professions and they notifyied me of any bugs and/or user experience issues. The general reviews of my page were positive, commenting on the inviting colours and appealing imagery. The structure was complemented along with the ease of navigation, and the site's uncluttered design.
 
 ### Further Testing
-The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers. It was viewed on a range of different devices, such as desktop, laptops, iPhone 5S, iPhone 8 plus, iPhoneX, iPad 2019, and Samsung Galaxy. Extensive testing was carried out to make sure the links were working correctly, and that the images are loading correctly.
+The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers. It was viewed on a range of different devices, such as desktop, laptops, iPhone 5S, iPhone 8 plus, iPhoneX, iPad 2019, and Samsung Galaxy. Extensive testing was carried out to make sure the links were working correctly, and that the images are loading correctly. 
